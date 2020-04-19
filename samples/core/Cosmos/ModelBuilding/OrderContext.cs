@@ -44,6 +44,7 @@ namespace Cosmos.ModelBuilding
                     sa.ToJsonProperty("Address");
                     sa.Property(p => p.Street).ToJsonProperty("ShipsToStreet");
                     sa.Property(p => p.City).ToJsonProperty("ShipsToCity");
+                    sa.Property(p => p.Test).ToJsonProperty("PostCode");
                 });
             #endregion
 

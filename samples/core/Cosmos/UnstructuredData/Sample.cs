@@ -25,7 +25,7 @@ namespace Cosmos.UnstructuredData
                 var order = new Order
                 {
                     Id = 1,
-                    ShippingAddress = new StreetAddress { City = "London", Street = "221 B Baker St" },
+                    ShippingAddress = new StreetAddress { City = "London", Street = "221 B Baker St", Test = new TestClass() { Name = "John Doe" } },
                     PartitionKey = "1"
                 };
 
